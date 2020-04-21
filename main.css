@@ -1,0 +1,127 @@
+/*Colors
+Black background": 222
+Primary color:
+3ab5fe
+white:
+fafaff*/
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+h2,
+h3,
+h4 {
+	font-weight: 900;
+	text-transform: uppercase;
+}
+h1 {
+	font-weight: 900;
+	text-transform: uppercase;
+}
+a {
+	color: #222;
+}
+a:hover {
+	color: #3ab5fe;
+}
+/*navbar*/
+.navbar {
+	text-transform: uppercase;
+}
+.navbar-brand {
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+.nav-link {
+	font-weight: 700;
+}
+/*hero*/
+.hero {
+	position: relative;
+}
+.hero-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-120%, -65%);
+	background-color: #fafaff;
+	padding: 6px;
+}
+/*call to action*/
+.dark-background {
+	background-color: #222;
+	color: #fafaff;
+}
+span {
+	color: #3ab5fe;
+}
+img.rounded-circle {
+	width: 125px;
+	height: 125px;
+	object-fit: cover;
+	border: 5px solid #3ab5fe;
+}
+.btn-main {
+	background-color: #3ab5fe;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.btn-main:hover {
+	background-color: #fafaff;
+	color: #3ab5fe;
+}
+/*Services*/
+.services p {
+	margin: 0;
+}
+.service-icon {
+	background-color: #3ab5fe;
+}
+.service-icon i {
+	font-size: 2rem;
+	color: #fafaff;
+}
+/*Testimonials*/
+.slider-item {
+	display: none;
+}
+.active-slider-item {
+	display: block;
+}
+/*TEAM*/
+.team-social-links {
+	background-color: #222;
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+.team-social-links a,
+.footer-social-links a {
+	color: #fafaff;
+}
+.team-social-links a:hover,
+.footer-social-links a:hover {
+	color: #3ab5fe;
+}
+
+.person2 {
+	width: 130px;
+	margin: 0 100px;
+}
+.person3 {
+	width: 130px;
+	margin: 0 100px;
+}
+/*FOOTER*/
+.attribution a {
+	color: #fafaff;
+}
+footer input,
+footer textarea {
+	width: 100%;
+	font-size: 1rem;
+	padding: 0.8rem 1rem;
+	margin-bottom: 1rem;
+}
